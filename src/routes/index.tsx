@@ -18,6 +18,7 @@ export default function Home() {
     }).then(res => res.json()) as APIEvent<SendQueryResponse>
 
     console.log(result.body.message)
+    //testing
   }
 
   return (
